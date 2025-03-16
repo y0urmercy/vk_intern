@@ -9,10 +9,10 @@ int main() {
     int start;
     int nVert, nEdges;
     int a, b;
-    vector<vector<int>> graph(nVert);
 
     ifstream infile("graph.txt");
     infile >> nVert >> nEdges;
+    vector<vector<int>> graph(nVert);
 
     for (int i = 0; i < nEdges; i++)
     {
